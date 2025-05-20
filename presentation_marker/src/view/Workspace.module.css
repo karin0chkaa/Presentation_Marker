@@ -1,0 +1,21 @@
+/* .workspace {
+    padding: 60px;
+    margin: auto;
+    flex-grow: 1;
+    background-color: #fefcfb;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+} */
+
+
+.workspace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

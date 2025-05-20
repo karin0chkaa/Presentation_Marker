@@ -1,0 +1,23 @@
+#root {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+
+    background-color: #f5f5f5;
+    color: #333;
+
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --topPanelHeight: 130px;
+    --accentColor: #1a73e8;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    height: calc(100vh - var(--topPanelHeight));
+}
